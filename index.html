@@ -1,37 +1,161 @@
-<!--
-    Winhweel.js basic code wheel example by Douglas McKechie @ www.dougtesting.net
-    See website for tutorials and other documentation.
+<!DOCTYPE html>
+<html class="ui-mobile"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><!-- base href="https://demos.jquerymobile.com/1.4.5/pages-multi-page/index.html" -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Imprompt</title>
+	<link rel="stylesheet" href="jquery.css">
+	<link rel="stylesheet" href="jqm-demos.css">
+	<link rel="shortcut icon" href="https://demos.jquerymobile.com/1.4.5/favicon.ico">
+	<script src="jquery_002.js"></script>
+	<script src="index.js"></script>
+	<script src="jquery.js"></script>
+</head>
+<style>
+.jqm-content
+{
+	display:none;
+}
+.red
+{
 
-    The MIT License (MIT)
+background: red;
 
-    Copyright (c) 2016 Douglas McKechie
+}
+</style
 
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
+<body class="ui-mobile-viewport ui-overlay-a">
 
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
+<!-- Start of first page: #one -->
+<div data-role="page" id="one" data-url="one" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 786px;">
 
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
--->
-<html>
-    <head>
-        <title>HTML5 Canvas Winning Wheel</title>
-        <link rel="stylesheet" href="main.css" type="text/css" />
-        <script type="text/javascript" src="Winwheel.js"></script>
-        <!-- <script src="https://cdn.rawgit.com/coderitual/odoo/feature/codevember16/lib/odoo.js"></script> -->
-    </head>
-    <body>
-       <div class="js-odoo"></div>
-    </body>
-</html>
+	<div data-role="header" role="banner" class="ui-header ui-bar-inherit" style="padding-bottom:0px">
+		<h1 class="ui-title" role="heading" aria-level="1">TABLE TOPICS - Select One Topic (2:30 Min)</h1>
+		<!-- <h1 class="ui-title" role="heading" aria-level="1"></h1> -->
+		
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" style="padding-top:0px">
+		<!-- <h1 style="text-align:center;background: blue;color:white">TOPICS</h1>		 -->
+			<!-- <p><a href="#two" id="two" class="ui-btn ui-shadow ui-corner-all" onclick="$(this).css('background','red')">2</a></p> -->
+		<p><a href="#one1"  class="ui-btn ui-shadow ui-corner-all" onclick="$(this).css('background','red')">1 ONE</a></p>
+		<p><a href="#two"  class="ui-btn ui-shadow ui-corner-all" onclick="$(this).css('background','red')">2 TWO</a></p>
+		<p><a href="#three" class="ui-btn ui-shadow ui-corner-all" onclick="$(this).css('background','red')">3 THREE</a></p>
+		<p><a href="#four" class="ui-btn ui-shadow ui-corner-all" onclick="$(this).css('background','red')">4 FOUR</a></p>
+		<p><a href="#five" class="ui-btn ui-shadow ui-corner-all" onclick="$(this).css('background','red')">5 FIVE</a></p>
+		<p><a href="#six" class="ui-btn ui-shadow ui-corner-all" onclick="$(this).css('background','red')">6 SIX</a></p>
+		<p><a href="#seven" class="ui-btn ui-shadow ui-corner-all" onclick="$(this).css('background','red')">7 SEVEN</a></p>
+		<p><a href="#eight" class="ui-btn ui-shadow ui-corner-all" onclick="$(this).css('background','red')">8 EIGHT</a></p>
+		<p><a href="#nine" class="ui-btn ui-shadow ui-corner-all" onclick="$(this).css('background','red')">9 NINE</a></p>
+		<p><a href="#ten" class="ui-btn ui-shadow ui-corner-all" onclick="$(this).css('background','red')">10 TEN</a></p>
+		
+	</div><!-- /content -->
+</div><!-- /page one -->
+
+ <!-- Start of second page: #two -->
+<div data-role="page" id="one1" data-theme="a" data-url="one1" tabindex="0" class="ui-page ui-page-theme-a" style="min-height: 786px;">
+
+	<div role="main" class="ui-content">
+		<h2>1. POOR AS A CHURCH MOUSE: Being Extermly poor</h2>
+	    <img src="alien.gif" alt="Smiley face" height="120" width="120">
+		<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back</a></p>
+
+	</div><!-- /content -->
+</div><!-- /page two -->
+
+ <!-- Start of second page: #two -->
+<div data-role="page" id="two" data-theme="a" data-url="two" tabindex="0" class="ui-page ui-page-theme-a" style="min-height: 786px;">
+
+	<div role="main" class="ui-content">
+		<h2>1. THE ELEPHANT IN THE ROOM : Biggest Problem in hand which is being ignored</h2>
+	    <img src="alien.gif" alt="Smiley face" height="120" width="120">
+		<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back</a></p>
+
+	</div><!-- /content -->
+</div><!-- /page two -->
+ <!-- Start of second page: #two -->
+<div data-role="page" id="three" data-theme="a" data-url="three" tabindex="0" class="ui-page ui-page-theme-a" style="min-height: 786px;">
+
+	<div role="main" class="ui-content">
+		<h2>1. Do Monkey business: shenanigans, mischievous business</h2>
+	    <img src="alien.gif" alt="Smiley face" height="120" width="120">
+		<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back</a></p>
+
+	</div><!-- /content -->
+</div><!-- /page two -->
+ <!-- Start of second page: #two -->
+<div data-role="page" id="four" data-theme="a" data-url="four" tabindex="0" class="ui-page ui-page-theme-a" style="min-height: 786px;">
+
+	<div role="main" class="ui-content">
+		<h2>1. Couch potato - Very Lazy person</h2>
+	    <img src="alien.gif" alt="Smiley face" height="120" width="120">
+		<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back</a></p>
+
+	</div><!-- /content -->
+</div><!-- /page two -->
+ <!-- Start of second page: #two -->
+<div data-role="page" id="five" data-theme="a" data-url="five" tabindex="0" class="ui-page ui-page-theme-a" style="min-height: 786px;">
+
+	<div role="main" class="ui-content">
+		<h2>1.Armed to the teeth - Heavly Prepared or Armed, well-equipped</h2>
+	    <img src="alien.gif" alt="Smiley face" height="120" width="120">
+		<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back</a></p>
+
+	</div><!-- /content -->
+</div><!-- /page two -->
+ <!-- Start of second page: #two -->
+<div data-role="page" id="six" data-theme="a" data-url="six" tabindex="0" class="ui-page ui-page-theme-a" style="min-height: 786px;">
+
+	<div role="main" class="ui-content">
+		<h2>1. Throw the Baby out with the bathwater - Do a big mistake correcting small mistake</h2>
+	    <img src="alien.gif" alt="Smiley face" height="120" width="120">
+		<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back</a></p>
+
+	</div><!-- /content -->
+</div><!-- /page two -->
+ <!-- Start of second page: #two -->
+<div data-role="page" id="seven" data-theme="a" data-url="seven" tabindex="0" class="ui-page ui-page-theme-a" style="min-height: 786px;">
+
+	<div role="main" class="ui-content">
+		<h2>1. Piece of cake - Very Easy</h2>
+	    <img src="alien.gif" alt="Smiley face" height="120" width="120">
+		<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back</a></p>
+
+	</div><!-- /content -->
+</div><!-- /page two -->
+ <!-- Start of second page: #two -->
+<div data-role="page" id="eight" data-theme="a" data-url="eight" tabindex="0" class="ui-page ui-page-theme-a" style="min-height: 786px;">
+
+	<div role="main" class="ui-content">
+		<h2>1. When pigs fly - Something unlikely to happen</h2>
+	    <img src="alien.gif" alt="Smiley face" height="120" width="120">
+		<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back</a></p>
+
+	</div><!-- /content -->
+</div><!-- /page two -->
+ <!-- Start of second page: #two -->
+<div data-role="page" id="nine" data-theme="a" data-url="nine" tabindex="0" class="ui-page ui-page-theme-a" style="min-height: 786px;">
+
+	<div role="main" class="ui-content">
+		<h2>1. Have a frog in (one’s) throat - having cough or sore throat</h2>
+	    <img src="alien.gif" alt="Smiley face" height="120" width="120">
+		<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back</a></p>
+
+	</div><!-- /content -->
+</div><!-- /page two -->
+ <!-- Start of second page: #two -->
+<div data-role="page" id="ten" data-theme="a" data-url="ten" tabindex="0" class="ui-page ui-page-theme-a" style="min-height: 786px;">
+
+	<div role="main" class="ui-content">
+		<h2>1. A rolling stone gathers no moss - An Active person does not Fail</h2>
+	    <img src="alien.gif" alt="Smiley face" height="120" width="120">
+		<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back</a></p>
+
+	</div><!-- /content -->
+</div><!-- /page two -->
+
+
+
+</div><!-- /page popup -->
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div></body></html>
