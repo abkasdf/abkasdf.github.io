@@ -158,4 +158,21 @@ background: red;
 
 </div><!-- /page popup -->
 
-<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div></body></html>
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div></body>
+	<script>
+	const params = new URLSearchParams(window.location.search)
+
+	$('#one1 h2').html(params.get('aquickbrownfoxjumpsoveralazydog').split(',')[0]);
+	$('#two h2').html(params.get('aquickbrownfoxjumpsoveralazydog').split(',')[1]);
+	$('#three h2').html(params.get('aquickbrownfoxjumpsoveralazydog').split(',')[2]);
+	$('#four h2').html(params.get('aquickbrownfoxjumpsoveralazydog').split(',')[3]);
+	$('#five h2').html(params.get('aquickbrownfoxjumpsoveralazydog').split(',')[4]);
+	$('#six h2').html(params.get('aquickbrownfoxjumpsoveralazydog').split(',')[5]);
+	$('#seven h2').html(params.get('aquickbrownfoxjumpsoveralazydog').split(',')[6]);
+	$('#eight h2').html(params.get('aquickbrownfoxjumpsoveralazydog').split(',')[7]);
+	$('#nine h2').html(params.get('aquickbrownfoxjumpsoveralazydog').split(',')[8]);
+	$('#ten h2').html(params.get('aquickbrownfoxjumpsoveralazydog').split(',')[9]);
+	
+	</script>
+	
+	</html>
